@@ -1,0 +1,22 @@
+
+@mixin button-styles($color: $primary-color, $padding: $button-padding) {
+  background-color: $color;
+  color: white;
+  padding: $padding;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin header-styles {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: $secondary-color;
+}

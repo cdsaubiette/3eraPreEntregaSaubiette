@@ -1,0 +1,31 @@
+.titulo {
+    text-align: center;
+    letter-spacing: 1rem;
+  }
+  
+  .link {
+    color: $text-color;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+  }
+  
+  .card {
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    padding: 1rem;
+  }
+  
+  .card-img-top {
+    max-width: 40%;
+  }
+  
+  .no-bg {
+    background-color: transparent; 
+  }
+  
+  .footer-proyectos {
+    margin-top: 3rem;
+  }

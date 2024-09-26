@@ -1,0 +1,31 @@
+/* Estilos Mobile */
+@media (max-width: 767px) {
+
+  
+  .progreso, .prox, .cursos, .title {
+    width: 60%; 
+    margin: 2% 2%; 
+    padding: 2%; 
+  }
+  .progreso img, .prox img, .cursos img {
+    width: 1rem; 
+    height: auto; 
+    margin: 1rem;
+  }
+  }
+  
+  
+  /* Estilos Tablets */
+  @media (min-width: 768px) {
+    .progreso, .prox, .cursos, .title {
+      width: 80%; 
+    }
+  }
+  
+  /* Estilos Desktop */
+  @media (min-width: 992px) {
+    .progreso, .prox, .cursos, .title {
+      width: 90%; 
+    }
+  }
+  

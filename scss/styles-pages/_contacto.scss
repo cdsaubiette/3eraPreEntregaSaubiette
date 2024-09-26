@@ -1,0 +1,44 @@
+@import '../utilidades/mixins';
+
+form {
+  width: 80%;   
+}
+
+main div div form h1 {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+form input {
+  width: 100%;
+  margin: 5%;
+}
+
+form textarea {
+  width: 100%;
+  margin: 5%;
+}
+
+form #enviar {
+  @include button-styles;
+}
+
+.mx-auto {
+  @include flex-center;
+}
+
+main div div li {
+  list-style: none;
+}
+.contactame{
+  margin-left: 5%;
+}
+
+.contactame img {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+  
+}

@@ -1,0 +1,33 @@
+@import '../utilidades/mixins';
+
+.iconos-nav {
+  @include flex-center; 
+  height: 6rem; 
+}
+
+.iconos-nav ul {
+  list-style-type: none; 
+  display: flex; 
+}
+
+.iconos-nav li {
+  margin: 0 1rem; 
+}
+
+.iconos-nav img {
+  width: 120%; 
+  height: auto; 
+  transition: transform 0.5s; 
+}
+
+.iconos-nav img:hover {
+  transform: scale(1.1); 
+}
+
+.row div p {
+  text-align: center;
+}
+
+.row div p img {
+  width: 3%;
+}
