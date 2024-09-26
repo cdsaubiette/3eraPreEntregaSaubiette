@@ -2,19 +2,18 @@
 
 .titulo {
   text-align: center;
-  font-size: 4rem; /* Asegúrate de que esto esté presente */
+  font-size: 4rem; // Asegúrate de que esto esté presente
   font-weight: 900;
-  padding: 2rem 1rem; /* Verifica si esto está aplicado */
+  padding: 2rem 1rem; // Verifica si esto está aplicado
   letter-spacing: 0.3rem;
-  
 }
 
 .main-tec {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr); 
-  gap: 1%; 
-  padding: 1%; 
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1%;
+  padding: 1%;
 }
 
 .main-section-img {
@@ -22,31 +21,38 @@
   border-radius: 50%;
 }
 
-.title{
+.title {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .progreso, .prox, .cursos, .title {
   width: 90%;
-  padding: 1%; 
-  border-radius: 1%; 
-  box-shadow: 0 4px 8px rgba(139, 57, 57, 0.2); 
-  text-align: center; 
+  padding: 1%;
+  border-radius: 1%;
+  box-shadow: 0 4px 8px rgba(139, 57, 57, 0.2);
+  text-align: center;
   margin: 3%;
   margin-bottom: 3%;
 }
 
 .progreso-images, .prox-images, .cursos-images {
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .progreso img, .prox img, .cursos img {
-  width: 4rem; 
-  height: auto; 
+  width: 4rem;
+  height: auto;
   margin: 1rem;
 }
+
+.tec-icon {
+  margin: 1%;
+
+  p {
+    text-align: center;
+  }
+} 
