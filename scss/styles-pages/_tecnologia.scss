@@ -1,11 +1,28 @@
 @import '../utilidades/mixins';
 
-.titulo {
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-tec {
   text-align: center;
-  font-size: 4rem; // Asegúrate de que esto esté presente
+  font-size: clamp(2rem, 5vw + 1rem, 4rem); 
   font-weight: 900;
-  padding: 2rem 1rem; // Verifica si esto está aplicado
+  padding: 2rem 1rem;
   letter-spacing: 0.3rem;
+}
+
+
+h3 {
+  font-size: clamp(1.5rem, 4vw + 0.5rem, 2.5rem); 
+  margin: 1rem 0;
+}
+
+p {
+  font-size: clamp(1rem, 3vw + 0.5rem, 1.2rem); 
+  margin: 0.5rem 0;
 }
 
 .main-tec {
@@ -21,13 +38,7 @@
   border-radius: 50%;
 }
 
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.progreso, .prox, .cursos, .title {
+.progreso, .prox, .cursos {
   width: 90%;
   padding: 1%;
   border-radius: 1%;
@@ -55,4 +66,4 @@
   p {
     text-align: center;
   }
-} 
+}
