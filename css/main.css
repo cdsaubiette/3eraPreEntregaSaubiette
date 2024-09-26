@@ -1,0 +1,510 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Permanent Marker";
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* body */
+body {
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 80%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-size: 16px; 
+}
+
+/* Header */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #75cbc9;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  padding: 0.5rem 1rem;
+}
+
+.icons {
+  max-height: 1.5rem; 
+  border-radius: 2px;
+}
+
+.links {
+  color: rgb(20, 20, 20);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  transition: transform 0.3s; 
+  display: inline-block; 
+}
+
+.links:hover {
+  transform: scale(1.1); 
+}
+
+
+
+/* Contenido del Main */
+
+h1{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  padding: 2rem 1rem;
+  letter-spacing: 0.3rem;
+}
+
+h2{
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 2rem 1rem;
+  font-weight: 800;
+  letter-spacing: 1rem;
+}
+
+main section div, .row{
+  margin-top: 5%;
+}
+
+body section div div p{
+  text-align: justify;
+  letter-spacing: 0.3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.avatar-img{
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  background-color: #0394e8;
+  letter-spacing: 0.7rem;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+  font-weight: bold;
+}
+
+/* 
+------------------------------------------
+Estilos para Tecnologia.HTML
+-------------------------------------------
+*/
+
+.titulo {
+  text-align: center;
+}
+
+.main-tec {
+  display: grid;
+  grid-template-columns: repeat(3 1fr); 
+  gap: 1%; 
+  padding: 1%; 
+}
+
+.main-section-img {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.progreso, .prox, .cursos {
+  width: 90%;
+  padding: 2%; 
+  border-radius: 1%; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  text-align: center; 
+  margin:5%;
+  margin-bottom: 5%;
+}
+
+.progreso-images, .prox-images, .cursos-images {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.progreso img, .prox img, .cursos img {
+  width: 4rem; 
+  height: auto; 
+  margin: 1rem;
+
+}
+
+
+
+/* 
+-------------------------------------
+ estilos para proyectos.html
+ --------------------------------------
+ */
+
+.titulo {
+  text-align: center;
+  letter-spacing: 1rem;
+}
+
+.link{
+  color: rgb(20, 20, 20);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+}
+.card{
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  padding: 1rem;
+}
+
+.card-img-top{
+  max-width: 40%  ;
+}
+
+.no-bg {
+  background-color: transparent; 
+}
+
+.footer-proyectos{
+  margin-top: 3rem;
+}
+
+
+
+/*
+---------------------------------
+Estilos de contacto.html 
+---------------------------------
+*/
+
+
+form {
+  width: 50%;   
+}
+
+main div div form h1{
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+form input{
+  width: 50%;
+  margin: 20%;
+}
+
+form textarea{
+  width: 50%;
+  margin: 20%;
+}
+
+form #enviar {
+  background-color: #0093E9;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.mx-auto {
+  display: flex;  
+  align-items: center; 
+  justify-content: center; 
+}
+
+main div div li {
+  list-style: none;
+}
+
+.contactame img{
+  display: block;
+  width: 30%;
+  margin: auto;
+}
+
+
+
+/*
+---------------------------------
+Estilo para Sobre-Mi
+---------------------------------
+*/
+
+.iconos-nav {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 6rem; 
+}
+
+.iconos-nav ul {
+  list-style-type: none; 
+  display: flex; 
+}
+
+.iconos-nav li {
+  margin: 0 1rem; 
+}
+
+.iconos-nav img {
+  width: 120%; 
+  height: auto; 
+  transition: transform 0.5s; 
+}
+
+.iconos-nav img:hover {
+  transform: scale(1.1); 
+}
+.row div p{
+  text-align: center;
+}
+.row div p img{
+  width: 3%;
+}
+
+
+
+
+
+
+
+/* Media Queries */
+
+/* Estilos Mobile */
+@media (max-width: 767px) {
+  
+  .header-tec .navbar-nav {
+    flex-direction: column;
+  }
+
+  .header-tec .navbar-nav .nav-item {
+    margin: 0.5rem 0;
+  }
+
+  header nav div div ul li li a, .links{
+    font-size: 0.9rem;
+  }
+
+  .iconos-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.iconos-nav li {
+    margin: 0 1rem;
+}
+
+.iconos-nav img {
+    width: 120%; 
+    height: auto;
+    transition: transform 0.5s;
+}
+
+.iconos-nav img:hover {
+    transform: scale(1.1);
+}
+
+  main section div div h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 2rem 1rem;
+    letter-spacing: 0.3rem;
+  }
+
+  main section div div h2{
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 2rem 1rem;
+    font-weight: 800;
+    letter-spacing: 1rem;
+  }
+
+  body section div div p{
+    text-align: justify;
+    letter-spacing: 0.2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  form {
+    width: 100%;   
+    padding: 10%;
+  }
+
+  form h1{
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  form input{
+    width: 100%;
+    margin: 1%;
+  }
+
+  form textarea{
+    width: 100%;
+    margin: 1%;
+  }
+
+  form #enviar {
+    background-color: #0093E9;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  main section div div p{
+    text-align: center;
+  }
+
+  .contactame img{
+    margin: 2rem;
+  }
+
+  .titulo{
+    font-size: 2rem;
+  }
+ 
+  .row div p img{
+    width: 6%;
+  }
+
+  .main-content {
+    flex-direction: column;
+  }
+
+  .main-content .text {
+    text-align: center;
+  }
+
+  .main-content{
+    margin-top: 1rem;  
+  }
+
+  .progreso-images, .prox-images, .cursos-images {
+    display: inline-block; 
+    justify-content: center; 
+    align-items: center;
+  }
+
+  
+
+  footer p{
+    font-size: 1rem;
+  }
+}
+
+
+/* Estilos Tablets */
+
+@media (min-width: 768px) {
+
+  header nav div div ul li li a, .links{
+    font-size: 1.2rem;
+  }
+  .icons {
+    max-height: 1.875rem; 
+  }
+
+  h1.devWeb {
+    font-size: 2rem;
+  }
+
+  main p {
+    font-size: 1rem;
+    margin: 2rem;
+  }
+
+  .avatar-img {
+    max-width: 15rem; 
+  }
+
+  form {
+    width: 100%;   
+    padding: 8%;
+  }
+  form h1{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+
+  form input{
+    width: 100%;
+    margin: 0.5%;
+  }
+
+  form textarea{
+    width: 100%;
+    margin: 0.5%;
+  }
+
+  form #enviar {
+    background-color: #0093E9;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .main-content {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-content .text {
+    text-align: left;
+    margin-right: 2rem;
+  }
+
+  .main-content .avatar-img {
+    margin-top: 0;
+    
+  }
+}
+
+/* Estilos Desktop */
+
+@media (min-width: 992px) {
+
+  header nav div div ul li li a, .links{
+    font-size: 1.8rem;
+  }
+  h1.devWeb {
+    font-size: 2.5rem;
+  }
+
+  main p {
+    font-size: 1.125rem;
+  }
+
+  .main-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+}
